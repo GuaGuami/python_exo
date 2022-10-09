@@ -1,0 +1,11 @@
+#忘记题目了
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+s = input()
+n=0
+for e in s:
+    if e.isupper():
+      n+=ord(e)
+print(n)
